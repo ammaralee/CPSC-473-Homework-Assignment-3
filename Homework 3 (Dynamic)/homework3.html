@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Homework 3</title>
+
+</head>
+
+<body>
+  <h2 align="center">Homework 3</h2>
+  <h3>Question 1 to 4 :</h3>
+  <input type="number" min="0" placeholder="Enter Numbers" id="text1"></input>
+  <input type="button" id="button1" value="Add" onclick="add_element_to_array();"></input>
+  <input type="button" id="button3" value="Average" onclick="exercise1();"></input>
+  <input type="button" id="button4" value="Largest" onclick="exercise2();"></input>
+  <input type="button" id="button5" value="Has At Least One Even" onclick="exercise3();"></input>
+  <input type="button" id="button6" value="All Numbers are Even" onclick="exercise4();"></input>
+
+  <br>
+  <br>
+  <hr>
+
+  <div id="Result"></div>
+  <div id="Average"></div>
+  <div id="Largest"></div>
+  <div id="Even"></div>
+  <div id="Odd"></div>
+
+  <br>
+  <br>
+  <hr>
+  <h3>Using Underscore.js</h2>
+  <h3>Question 2 to 4 :</h3>
+  <input type="number" min="0" placeholder="Enter Number" id="text2"></input>
+  <input type="button" id="button7" value="Add" onclick="_add_element_to_array();"></input>
+  <input type="button" id="button9" value="Largest" onclick="_exercise2();"></input>
+  <input type="button" id="button10" value="Has At Least One Even" onclick="_exercise3();"></input>
+  <input type="button" id="button11" value="All Numbers are Even" onclick="_exercise4();"></input>
+
+  <br>
+  <br>
+  <hr>
+
+  <div id="_Result"></div>
+  <div id="_Largest"></div>
+  <div id="_Even"></div>
+  <div id="_Odd"></div>
+
+  <br>
+  <br>
+  <hr>
+
+  <h3>arrayContains</h2>
+  <h3>Question 5 and 6 :</h3>
+  <!-- Accepts Array Strings!-->
+  <input type="text" id="text3" placeholder="Enter String"></input>
+  <input type="button" id="button12" value="Add" onclick="add_element_to_arrayContains();"></input>
+
+  <!-- Accepts only String!-->
+  <input type="text" id="text4" placeholder="Enter String"></input>
+  <input type="button" id="button13" value="Add" onclick="compare();"></input>
+
+
+  <!-- Compare String!-->
+  <input type="button" id="button14" value="Compare" onclick="arrayContains();"></input>
+  <input type="button" id="button15" value="Compare 2" onclick="arrayContains2();"></input>
+  <input type="button" id="button16" value="Compare 3" onclick="arrayContains3();"></input>
+  <input type="number" min="0" placeholder="where N is" id="text5"></input>
+  <input type="button" id="button18" value="Add" onclick="nInput();"></input>
+  <input type="button" id="button17" value="Compare N" onclick="arrayContainsN();"></input>
+
+
+
+  <div id="AddArrayString"></div>
+  <div id="compareString"></div>
+  <div id="isString"></div>
+  <div id="isString2"></div>
+  <div id="isString3"></div>
+  <div id="compareNString"></div>
+  <div id="isStringN"></div>
+
+
+  <script src="homework3.js"></script>
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js"></script>
+</body>
+
+</html>
