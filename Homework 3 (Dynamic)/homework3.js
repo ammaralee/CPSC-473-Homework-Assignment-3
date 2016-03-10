@@ -102,17 +102,17 @@ function _add_element_to_array() {
 
 }
 
+
 // Question 2)
 function _exercise2() {
 
-
   var largest = _.max(w, function(num) {
-
-    return num;
+    return Number(num);
 
   });
   document.getElementById("_Largest").innerHTML = largest;
 }
+
 
 // Question 3
 function _exercise3() {
